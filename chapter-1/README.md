@@ -16,7 +16,7 @@ Its `npm` but for Rust
 - `cargo build` compiles your source code and places its output into `target/debug/compiler_output` path
 - `cargo run` compiles your source code and also runs it
 - `cargo check` makes sure your code compiles without it actually compiling (much faster than `cargo build` for checkign purposes)
-- `cargo build --release` creates and executable in `target/release` path and applies optimizations within the compiling process (runs much slower though).
+- `cargo build --release` creates an executable in `target/release` path and applies optimizations within the compiling process (runs much slower though).
 
 ## Notes
 
