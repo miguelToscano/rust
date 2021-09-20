@@ -6,7 +6,9 @@
 
 `./<compiler_output>`
 
-## Tips
+## Notes
 
 - Rust file names are separated by underscore
-- `main` function is where it al begins
+- The `main` function is where it all begins
+- Declaring a function looks like `fn main() { }`
+- Calling a function followed by `!` (`println!(" ")`) means youre actually calling a macro instead
